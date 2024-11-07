@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node --import tsx --import ./sentry-init.mjs main.ts"
+  },
+  "devDependencies": {
+    "@sentry/node": "^8.37.1",
+    "@sentry/profiling-node": "^8.37.1",
+    "tsx": "^4.19.2"
+  }
+}
